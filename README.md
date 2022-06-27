@@ -1,10 +1,14 @@
 # Stori project frontend
 This is the frontend for the stori code challenge.
 
-# Stack
-This project uses Vue 3, Vite and Vuetify.
+## Stack
+This project uses:
+- [Vue 3](https://vuejs.org/)
+- [Vuetify](https://next.vuetifyjs.com/en/)
+- [Vite](https://vitejs.dev/)
 
-# How to run it 
+
+## How to run it 
 First set the API server in the .env file
 
 Install the dependencies:
@@ -22,7 +26,7 @@ Build for production:
 yarn build
 ```
 
-# Screenshots
+## Screenshots
 ![start](./screenshots/inicio.png)
 
 ![popup](./screenshots/popup.png)
