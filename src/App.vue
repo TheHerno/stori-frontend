@@ -1,12 +1,14 @@
 <template>
   <v-app>
     <v-app-bar app>
-      <a href="/">
-        <img src="./assets/logo.png" alt="stori logo" />
-      </a>
+      <v-app-bar-title>
+        <a href="/">
+          <img src="./assets/logo.png" alt="stori logo" />
+        </a>
+      </v-app-bar-title>
     </v-app-bar>
     <v-main>
-      <userList></userList>
+      <userList />
     </v-main>
   </v-app>
 </template>
