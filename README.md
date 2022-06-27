@@ -1,7 +1,32 @@
-# Vue 3 + Vite
+# Stori project frontend
+This is the frontend for the stori code challenge.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Stack
+This project uses Vue 3, Vite and Vuetify.
 
-## Recommended IDE Setup
+# How to run it 
+First set the API server in the .env file
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+Install the dependencies:
+```
+yarn
+```
+
+Run as dev:
+```
+yarn dev
+```
+
+Build for production:
+```
+yarn build
+```
+
+# Screenshots
+![start](./screenshots/inicio.png)
+
+![popup](./screenshots/popup.png)
+
+![balance](./screenshots/balance.png)
+
+![error](./screenshots/error.png)
